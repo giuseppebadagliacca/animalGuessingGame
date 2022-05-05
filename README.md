@@ -1,1 +1,1 @@
-"Simple animal guessing game made with vanilla HTML, CSS, JavaScript."
+"Simple animal guessing game made with vanilla HTML, CSS, & JavaScript."
