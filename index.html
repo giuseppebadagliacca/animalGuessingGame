@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Guesser Game</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/style.css">
+<body>
+  <div id="game">
+    <h1>Guess The Mystery Animal!</h1>
+    <p id="instructions">You get <span style ='text-decoration: underline;'>ONE</span> chance to guess the correct animal! <span id="mistake">Make your move by clicking your choice below!</span></p>
+    <div id="game-container">
+      <div id="game-display">
+        <img id = 'reveal' src="/animalpics/mysteryPic.jpeg" alt="mystery">
+      </div>
+      <div id="guesses">
+        <table>
+          <tr>
+            <td><img id = "1" src="/animalpics/cat.jpeg" alt="Cat"></td>
+            <td><img id = "2" src="/animalpics/dog.jpeg" alt="Dog"></td>
+            <td><img id = "3" src="/animalpics/from.jpeg" alt="Frog"></td>
+          </tr>
+          <tr>
+            <th>Cat</th>
+            <th class="dog">Dog</th>
+            <th>Frog</th>
+          </tr>
+          <tr>
+            <td><img id = "4" src="/animalpics/butterfly.jpeg" alt="Butterfly"></td>
+            <td><img id = "5" src="/animalpics/dolphin.jpeg" alt="Dolphin"></td>
+            <td><img id = "6" src="/animalpics/orangutan.jpeg" alt="Orangutan"></td>
+          </tr>
+          <tr>
+            <th>Butterfly</th>
+            <th>Dolphin</th>
+            <th>Orangutan</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="play-again"></div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: 'Oswald', sans-serif;
+  color: lightgray;
+  box-sizing: border-box;
+}
+p{
+  font-size: 20px;
+}
+
+#game{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+#game-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#guesses img{
+  height: 220px;
+  margin: 10px;
+  border-radius: 100%;
+  border: 5px solid #333;
+}
+#game-display img{
+  height: 300px;
+  margin: 10px;
+  border-radius: 100%;
+  border: 5px solid #333;
+}
+
+th, td{
+  border: none;
+}
+
+th{
+  text-align: center;
+  font-size: 25px;
+}
+
+#guesses img:hover{
+  border: 5px solid lightgrey;
+}
+button{
+  background-color: lightgrey;
+  font-size: large;
+  border: none;
+}
+button:hover{
+  background-color: rgba(211, 211, 211, 0.782);
+}
